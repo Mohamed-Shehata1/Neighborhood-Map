@@ -1,0 +1,83 @@
+#map {
+  height: 93%;
+  transition: 0.5s;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.open {
+  padding: 10px;
+  background-color: #333;
+}
+.open div {
+  width: 36px;
+  cursor: pointer;
+}
+.open span {
+  padding: 2px 0px;
+  background: #FFF;
+  margin: 3px;
+  display: block;
+  width: 30px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  overflow-x: hidden;
+  padding-top: 15px;
+  transition: 0.5s;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 7px;
+  right: 12px;
+  font-size: 36px;
+  text-decoration: none;
+  color: #FFF;
+  cursor: pointer;
+}
+.sidenav .search {
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+.sidenav .search input {
+  width: 75%;
+  margin: 0;
+  float: left;
+  padding-left: 18px;
+  font-size: 16px;
+  border: 0;
+  height: 28px;
+}
+.sidenav .search button {
+  width: 19%;
+  margin: 0;
+  height: 30px;
+  padding: 0;
+  float: left;
+  display: inline;
+  border: 0;
+}
+.sidenav h2, .sidenav ul li  {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 20px;
+  display: block;
+  transition: 0.3s;
+  cursor:pointer;
+}
+.sidenav ul li:hover {padding-left: 50px;transition: ease 0.5s}
+.sidenav h2 {font-weight: bold;font-size: 26px;cursor: default;}
+.sidenav ul {padding-left: 0;}
+.clearfix {
+  clear: both;
+}
